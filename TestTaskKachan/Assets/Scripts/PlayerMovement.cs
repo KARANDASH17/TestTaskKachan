@@ -18,7 +18,9 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 velocity;
     
-    [SerializeField]private bool _isGrounded;
+    private bool _isGrounded;
+
+    
 
     void Update()
     {
